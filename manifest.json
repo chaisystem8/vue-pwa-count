@@ -1,0 +1,12 @@
+{
+    "name": "Contador App Vue",
+    "short_name": "Contador Vue",
+    "description": "Contador app es aun pwa para test por ch@isystem",
+    "background_color": "#35495e",
+    "theme_color": "#3367D6",
+    "start_url": "/?utm_source=web_app_manifest",
+    "scope": "/",
+    "lang": "es-MX",
+    "display": "fullscreen",
+    "orientation":"portrait"
+  }
