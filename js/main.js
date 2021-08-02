@@ -7,10 +7,10 @@ const app = Vue.createApp({
     },
     methods: {
         disCount(){
-            console.log('dis')
+            this.count--
         },
         addCount(){
-            console.log('add')
+            this.count += 1
         }
     },
 });
