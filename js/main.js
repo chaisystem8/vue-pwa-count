@@ -5,4 +5,12 @@ const app = Vue.createApp({
             count:0,
         };
     },
+    methods: {
+        disCount(){
+            console.log('dis')
+        },
+        addCount(){
+            console.log('add')
+        }
+    },
 });
