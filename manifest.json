@@ -4,9 +4,46 @@
     "description": "Contador app es aun pwa para test por ch@isystem",
     "background_color": "#35495e",
     "theme_color": "#3367D6",
-    "start_url": "/?utm_source=web_app_manifest",
-    "scope": "/",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
     "lang": "es-MX",
     "display": "fullscreen",
-    "orientation":"portrait"
+    "orientation":"portrait",
+    "icons":[
+      {
+        "src":"./img/favicon.png",
+        "sizes":"16x16",
+        "type":"imgage/png"
+      },
+      {
+        "src":"./img/32.png",
+        "sizes":"32x32",
+        "type":"imgage/png"
+      },
+      {
+        "src":"./img/64.png",
+        "sizes":"64x64",
+        "type":"imgage/png"
+      },
+      {
+        "src":"./img/128.png",
+        "sizes":"128x128",
+        "type":"imgage/png"
+      },
+      {
+        "src":"./img/256.png",
+        "sizes":"256x256",
+        "type":"imgage/png"
+      },
+      {
+        "src":"./img/512.png",
+        "sizes":"512x512",
+        "type":"imgage/png"
+      },
+      {
+        "src":"./img/1024.png",
+        "sizes":"1024x1024",
+        "type":"imgage/png"
+      }
+    ]
   }
