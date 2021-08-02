@@ -6,11 +6,8 @@ const app = Vue.createApp({
         };
     },
     methods: {
-        disCount(){
-            this.count--
+        modCount( ins = "add"){
+        (ins === "add") ? this.count+=1 : this.count--;            
         },
-        addCount(){
-            this.count += 1
-        }
     },
 });

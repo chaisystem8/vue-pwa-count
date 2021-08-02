@@ -18,8 +18,8 @@
        <h3 class="count">{{count}}</h3>
        <hr>
        <div class="buttons">
-           <button v-on:click="disCount"> - 1</button>
-           <button @click="addCount"> + 1</button>
+           <button v-on:click="modCount('dis')"> - 1</button>
+           <button @click="modCount('add')"> + 1</button>
        </div>
     </div>
 
