@@ -2,7 +2,7 @@ const app = Vue.createApp({
     data() {
         return {
             title:"Contador App - Vue",
-            footer:"by Ch@iystem",
+            footer:"Ch@iystem",
             count:0,
         };
     },
